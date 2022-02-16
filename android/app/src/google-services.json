@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "959618429531",
+    "project_id": "e-commerce-55a68",
+    "storage_bucket": "e-commerce-55a68.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:959618429531:android:3b9106fe78f241ff03057e",
+        "android_client_info": {
+          "package_name": "com.shamol.e_commerce"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "959618429531-fija95dmshpfsa1pfji3m61isif5naf9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8CVE-NbKzOjcFBuLuPIHkFuhz5f8g7_s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "959618429531-fija95dmshpfsa1pfji3m61isif5naf9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
