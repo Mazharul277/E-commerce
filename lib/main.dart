@@ -1,9 +1,4 @@
 
-import 'package:e_commerce/E-Com/open_splash.dart';
-import 'package:e_commerce/PRODUCT/categories.dart';
-import 'package:e_commerce/UI/OTP/otp_verification.dart';
-import 'package:e_commerce/UI/PROFILE/profile.dart';
-import 'package:e_commerce/UI/SIGNING/information.dart';
 import 'package:e_commerce/UI/SIGNING/sign_in.dart';
 import 'package:e_commerce/UI/body.dart';
 import 'package:firebase_auth/firebase_auth.dart';

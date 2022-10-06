@@ -1,5 +1,4 @@
 import 'package:e_commerce/E-Com/admin_page.dart';
-import 'package:e_commerce/UI/SIGNING/sign_up.dart';
 import 'package:e_commerce/configs.dart';
 import 'package:e_commerce/loader.dart';
 import 'package:flutter/material.dart';

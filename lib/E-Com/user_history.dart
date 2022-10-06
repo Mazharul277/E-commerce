@@ -3,7 +3,6 @@ import 'package:e_commerce/UI/SIGNING/sign_in.dart';
 import 'package:e_commerce/configs.dart';
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:firebase_auth/firebase_auth.dart';
 
 class User_History extends StatefulWidget {
   @override
@@ -23,7 +22,7 @@ class _User_HistoryState extends State<User_History> {
         automaticallyImplyLeading: false,
         title: Center(child: Text('Order Details')),
         actions: [
-          FlatButton(
+          TextButton(
               onPressed: (){
                 Navigator.pushAndRemoveUntil(context, MaterialPageRoute(builder: (context)=>Sign_in()), (route) => false);
               },

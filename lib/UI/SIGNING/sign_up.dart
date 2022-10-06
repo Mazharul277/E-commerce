@@ -1,8 +1,6 @@
 import 'package:e_commerce/UI/OTP/otp_verification.dart';
-import 'package:e_commerce/UI/SIGNING/sign_in.dart';
 import 'package:e_commerce/configs.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:email_auth/email_auth.dart';
 

@@ -1,7 +1,5 @@
-import 'package:e_commerce/E-Com/detail.dart';
 import 'package:e_commerce/configs.dart';
 import 'package:flutter/material.dart';
-import 'package:firebase_database/firebase_database.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
@@ -82,17 +80,17 @@ class _CartState extends State<Cart> {
                               ],
                             ),
                             Spacer(),
-                            FlatButton(
+                            TextButton(
                                 onPressed: (){
                                   showDialog(context: context, builder: (BuildContext context) {
                                   return new AlertDialog(
                                   title: new Text("Are You sure Want to Delete"),
                                     content: Row(
                                       children: [
-                                        FlatButton(onPressed: (){
+                                        TextButton(onPressed: (){
                                           Navigator.pop(context);
                                         }, child: Text('Cancel')),
-                                        FlatButton(
+                                        TextButton(
                                             onPressed: (){
                                           String productid = document.documentID;
                                           DocumentReference documentreference = Firestore.instance.collection('E-Commerce').document(user.uid).collection('product').document(productid);

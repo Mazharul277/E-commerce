@@ -1,7 +1,6 @@
-import 'dart:convert';
+
 import 'dart:io';
 
-import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:e_commerce/E-Com/database.dart';
 import 'package:e_commerce/UI/SIGNING/sign_in.dart';
@@ -9,7 +8,6 @@ import 'package:e_commerce/configs.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/material.dart';
-import 'package:http/http.dart' as http;
 import 'dart:async';
 
 import 'package:image_picker/image_picker.dart';

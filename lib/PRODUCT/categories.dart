@@ -1,11 +1,7 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:e_commerce/MODEL/category.dart';
 import 'package:e_commerce/PRODUCT/product_details.dart';
-import 'package:e_commerce/UI/PROFILE/profile.dart';
 import 'package:e_commerce/configs.dart';
 import 'package:flutter/material.dart';
-import '../E-Com/cart.dart';
-import '../E-Com/detail.dart';
 
 class All_Pages extends StatefulWidget {
 

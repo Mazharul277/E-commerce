@@ -59,7 +59,7 @@ class _ProfileState extends State<Profile> {
                             children: [
                               CircleAvatar(
                                 radius: 60.0,
-                                backgroundImage: NetworkImage(imageurl),
+                                //backgroundImage: NetworkImage(imageurl),
                               ),
 
                             ],
@@ -89,13 +89,13 @@ class _ProfileState extends State<Profile> {
               //Edit Profile
               Padding(
                 padding: const EdgeInsets.only(left: 28,top: 15, bottom: 25),
-                child: FlatButton(onPressed: (){
+                child: TextButton(onPressed: (){
                   //Navigator.push(context, MaterialPageRoute(builder: (context)=>User_Info()));
                 }, child: Text('Edit Profile')),
               ),
 
               //Address
-            FlatButton(
+            TextButton(
               onPressed: (){
                 //Navigator.of(context).pushAndRemoveUntil(MaterialPageRoute(builder: (context)=>Sign_in()), (route) => false);
               },
@@ -127,7 +127,7 @@ class _ProfileState extends State<Profile> {
               //Order History
               Padding(
                 padding: const EdgeInsets.only(top: 25, bottom: 25),
-                child: FlatButton(
+                child: TextButton(
                   onPressed: (){
                     //Navigator.of(context).pushAndRemoveUntil(MaterialPageRoute(builder: (context)=>Sign_in()), (route) => false);
                   },
@@ -147,7 +147,7 @@ class _ProfileState extends State<Profile> {
               ),
 
               //Carts
-              FlatButton(
+              TextButton(
                   onPressed: (){
                     Navigator.push(context, MaterialPageRoute(builder: (context)=>Cart()));
                   },
@@ -168,7 +168,7 @@ class _ProfileState extends State<Profile> {
               //Logout
               Padding(
                 padding: const EdgeInsets.only(top: 25, bottom: 25),
-                child: FlatButton(
+                child: TextButton(
                   onPressed: (){
                     Navigator.of(context).pushAndRemoveUntil(MaterialPageRoute(builder: (context)=>Sign_in()), (route) => false);
                   },

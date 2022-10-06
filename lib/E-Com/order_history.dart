@@ -1,7 +1,6 @@
 import 'package:e_commerce/configs.dart';
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:firebase_auth/firebase_auth.dart';
 
 class Order_History extends StatefulWidget {
 
@@ -69,17 +68,17 @@ class _Order_HistoryState extends State<Order_History> {
                                 ],
                               ),
                               Spacer(),
-                              FlatButton(
+                              TextButton(
                                   onPressed: (){
                                     showDialog(context: context, builder: (BuildContext context) {
                                       return new AlertDialog(
                                         title: new Text("Are You sure Want to Delete"),
                                         content: Row(
                                           children: [
-                                            FlatButton(onPressed: (){
+                                            TextButton(onPressed: (){
                                               Navigator.pop(context);
                                             }, child: Text('Cancel')),
-                                            FlatButton(
+                                            TextButton(
                                                 onPressed: (){
                                                   String productid = document.documentID;
                                                   DocumentReference documentreference = Firestore.instance.collection('E-Commerce').document(userid).collection('product').document(productid);

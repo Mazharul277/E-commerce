@@ -72,7 +72,7 @@ class _Sign_inState extends State<Sign_in> {
           ),
         centerTitle: true,
         actions: [
-          FlatButton(onPressed: (){
+          TextButton(onPressed: (){
             Navigator.push(context, MaterialPageRoute(builder: (context)=>Admin_Sign_In()));
           }, child: Text('An Admin'))
         ],

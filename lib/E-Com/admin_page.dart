@@ -1,6 +1,5 @@
 import 'dart:io';
 import 'package:e_commerce/E-Com/user_history.dart';
-import 'package:e_commerce/UI/SIGNING/sign_in.dart';
 import 'package:e_commerce/configs.dart';
 import 'package:e_commerce/loader.dart';
 import 'package:flutter/material.dart';
@@ -88,7 +87,7 @@ class _Admin_PageState extends State<Admin_Page> {
         elevation: 0,
         title: Center(child: Text('Admin Panel')),
         actions: [
-          FlatButton(
+          TextButton(
               onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=>User_History()));
                 // Navigator.pushAndRemoveUntil(
